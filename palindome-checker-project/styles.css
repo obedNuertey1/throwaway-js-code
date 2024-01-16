@@ -1,0 +1,101 @@
+body{
+    background-color: #e0e1dd;
+    color: #0d1b2a;
+  }
+  
+  .wrapper{
+    max-width: 70ch;
+    width: 100vw;
+    margin: 10vh auto;
+  }
+  
+  h1{
+    font-size: 52px;
+    text-shadow: 2px 2px 2px gray;
+  }
+  
+  p{
+    font-size: 24px;
+  }
+  
+  .wrapper h1, .wrapper div form, #result{
+    text-align: center;
+  }
+  
+  .form-div{
+    padding: 24px;
+    border-radius: 20px;
+    background-color: #415a77;
+    color: #e0e1dd;
+    min-height: 26vh;
+    height: auto;
+  }
+  
+  #text-input, #check-btn{
+    padding: 5px;
+    font-size: 24px;
+  }
+  
+  #check-btn{
+    border-radius: 5px;
+    border: none;
+    transform-origin: 50%, 50%;
+    transform: scale(1.005);
+    box-shadow: 2px 1px 1px 1px rgb(49, 49, 49);
+    margin-left: 8px;
+  }
+  
+  #check-btn:active{
+    background-color: #1b263b;
+    color: #e0e1dd;
+    box-shadow: none;
+    transform: scale(1);
+  }
+  
+  #text-input{
+    background-color: #415a77;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #1b263b;
+    color: inherit;
+  }
+  
+  #text-input:focus{
+    outline: none;
+    border-bottom: 3px solid #e0e1dd;
+  }
+  
+  .descriptive-text{
+    margin-top: 20px;
+    padding: 24px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #778da9;
+    color: #e0e1dd;
+    letter-spacing: 1.5px;
+  }
+  
+  
+  .form-div, .descriptive-text{
+    box-shadow: 5px 5px 5px gray;
+  }
+  
+  #result{
+    width: max;
+    overflow: hidden;
+    height: auto;
+  }
+  
+  /* STYLES FROM SCRIPT */
+  #is-palin{
+    color: #8ac926;
+    font-weight: Bolder;
+    letter-spacing: 1.2px;
+  }
+  
+  #not-palin{
+    color: rgb(227, 5, 5);
+    letter-spacing: 1.2px;
+    text-shadow: -1px -1px 0 rgb(193, 3, 3), 1px -1px 0 rgb(193, 3, 3), -1px 1px 0 rgb(193, 3, 3), 1px 1px 0 rgb(193, 3, 3);
+  }
