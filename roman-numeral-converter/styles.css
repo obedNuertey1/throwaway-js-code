@@ -1,0 +1,113 @@
+:root{
+    --bgColor: #1b1b32;
+    --txtColor: #ffff;
+  }
+  
+  *, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: var(--bgColor);
+    color: var(--txtColor);
+    font-family: lato, sans-serif;
+    word-spacing: 4px;
+  }
+  
+  header{
+    max-width: 50%;
+    min-width: 30rem;
+    width: 50%;
+    margin: 4rem auto 2rem auto;
+    text-align: center;
+    text-overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-shadow: 4px 4px 4px black;
+  }
+  
+  
+  form{
+    max-width: 50%;
+    width: 50%;
+    min-width: 30rem;
+    margin: 0 auto 4rem auto;
+    padding: 2.5rem;
+    border: 5px solid var(--txtColor);
+    background-color: #3b3b4f;
+    border-radius: 5px;
+  }
+  
+  input{
+    background-color: var(--bgColor);
+    border: 3px solid var(--txtColor);
+    width: 100%;
+    font-size: 3rem;
+    padding: .5rem;
+    color: var(--txtColor);
+  }
+  
+  input:focus{
+    outline: 3px solid blue;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+  }
+  
+  button{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #ffb63b;
+    border:none;
+    box-shadow: 3px 3px 2px 2px  rgba(44, 41, 41, 0.671);
+    border-radius: 5px;
+    color: var(--bgColor);
+  }
+  
+  button:hover{
+    filter: contrast(80%);
+    box-shadow: 5px 5px 2px 2px  rgba(44, 41, 41, 0.671);
+  }
+  
+  button:active{
+    transform: scale(0.99);
+    box-shadow: none;
+  }
+  
+  .good-response{
+    max-width: 50%;
+    width: 50%;
+    min-width: 30rem;
+    margin: auto;
+    padding: 1rem;
+    border: 5px solid var(--txtColor);
+    background-color: #3b3b4f;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 4rem;
+    overflow-x: auto;
+  }
+  
+  .bad-response {
+    max-width: 50%;
+    width: 50%;
+    min-width: 30rem;
+    margin: auto;
+    padding: 1rem;
+    border: 5px solid #850000;
+    background-color: #ffadad;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2rem;
+    color: #850000;
+  }
+  
+  
